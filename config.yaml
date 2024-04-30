@@ -31,13 +31,6 @@ monitors:
     method: GET
     expectStatus: 200
 
-  - id: status-wely-fun
-    name: 本监测页面
-    description: '本监测页面运行情况'
-    url: 'https://status.wely.in/'
-    method: GET
-    expectStatus: 200
-
   - id: work-wely-in
     name: Wely镜像GitHub
     description: '通过Cloudflare Workers反向代理GitHub'
