@@ -16,7 +16,7 @@ settings:
 
 monitors:
   - id: wely-fun # unique identifier
-    name: Wely主页
+    name: Wely | 主页
     description: '这里是Wely的主页' # default=empty
     url: 'https://Wely.fun/' # URL to fetch
     method: GET # default=GET
@@ -24,10 +24,24 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
 
+  - id: blog-wely-fun
+    name: Wely | 博客
+    description: '这里是Wely的博客'
+    url: 'https://blog.wely.fun/'
+    method: GET
+    expectStatus: 200
+
+  - id: status-wely-fun
+    name: 本监测页面
+    description: '本监测页面运行情况'
+    url: 'https://status.wely.in/'
+    method: GET
+    expectStatus: 200
+
   - id: work-wely-in
     name: Wely镜像GitHub
     description: '通过Cloudflare Workers反向代理GitHub'
-    url: 'https://work.wely.in/'
+    url: 'https://github.wely.in/'
     method: GET
     expectStatus: 200
 
