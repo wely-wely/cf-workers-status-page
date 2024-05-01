@@ -34,7 +34,7 @@ monitors:
   - id: work-wely-in
     name: Wely镜像GitHub
     description: '通过Cloudflare Workers反向代理GitHub'
-    url: 'https://github.wely.in/'
+    url: 'https://work.wely.in/'
     method: GET
     expectStatus: 200
 
