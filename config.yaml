@@ -32,15 +32,22 @@ monitors:
     expectStatus: 200
 
   - id: work-wely-in
-    name: Wely镜像GitHub
+    name: Wely 镜像 GitHub
     description: '通过Cloudflare Workers反向代理GitHub'
     url: 'https://work.wely.in/'
     method: GET
     expectStatus: 200
 
   - id: tool-wely-fun
-    name: Wely主页部分工具
+    name: Wely 主页部分工具
     description: '访问自建服务器上的部分工具'
     url: 'https://tool.wely.fun/'
+    method: GET
+    expectStatus: 200
+
+  - id: s-wely-in
+    name: Wely 短链接
+    description: '缩短一个长网址'
+    url: 'https://s.wely.in/'
     method: GET
     expectStatus: 200
