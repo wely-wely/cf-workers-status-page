@@ -41,7 +41,7 @@ monitors:
   - id: tool-wely-fun
     name: Wely 主页部分工具
     description: '访问自建服务器上的部分工具'
-    url: 'https://tool.wely.fun/'
+    url: 'https://ubuntu.wely.fun/'
     method: GET
     expectStatus: 200
 
